@@ -1,0 +1,28 @@
+<body bgcolor=#330066>
+    <center>
+        <font color = #FFFFFF>
+            <font size="110%" >
+                <h4>Toxic analyzing!!!</h4>
+            </font>
+        </font>
+    <font color = #FFFFFF>
+
+    {% load static %}
+              <img src="{% static "docro.png" %}">
+    <br>
+    <br>
+    <br>
+    <form action="/signup/" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Submit" name = "form"/>
+    </form>
+
+    <form action="/textAnalyze/" method="post">
+        {% csrf_token %}
+        {{ analyse_text }}
+        <input type="submit" value="Submit" name = "analyse_text"/>
+    </form>
+    </font>
+    </center>
+</body>

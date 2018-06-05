@@ -1,0 +1,99 @@
+<body bgcolor=#330066>
+<center>
+    <font color = #FFFFFF size = "110%">
+        <h4>Twitter user analyzing results</h4>
+    </font>
+    <font color = #FFFFFF>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <font color = #FFFFFF>
+                            twitterID
+                        </font>
+                    </td>
+                    <td>
+                        <font color = #FFFFFF>
+                            {{ twitterID  }}
+                        </font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font color = #FFFFFF>
+                        identity_hate =
+                        </font>
+                    </td>
+                <td>
+                    <font color = #FFFFFF>
+                    {{ identity_hate }}
+                    </font>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font color = #FFFFFF>
+                        obscene =
+                        </font>
+                    </td>
+                    <td>
+                        <font color = #FFFFFF>
+                            {{ obscene }}
+                        </font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font color = #FFFFFF>
+                            threat =
+                        </font>
+                    </td>
+                    <td>
+                        <font color = #FFFFFF>
+                        {{ threat }}
+                        </font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font color = #FFFFFF>
+                            insult =
+                        </font>
+                    </td>
+                    <td>
+                        <font color = #FFFFFF>
+                            {{ insult }}
+                        </font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font color = #FFFFFF>
+                        severe_toxic =
+                        </font>
+                    </td>
+                    <td>
+                        <font color = #FFFFFF>
+                        {{ severe_toxic }}
+                        </font>
+                    </td>
+                </tr>
+                <tr>
+                  <td>
+                    <font color = #FFFFFF>
+                        toxic =
+                    </font>
+                  </td>
+                    <td>
+                        <font color = #FFFFFF>
+                          {{ toxic }}
+                        </font>
+                    </td>
+                </tr>
+            </tbody>
+            {% load static %}
+            <img src="{% static "results.png" %}">
+            </table>
+        </font>
+    </body>
+</center>
