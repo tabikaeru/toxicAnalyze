@@ -1,10 +1,8 @@
 from django.shortcuts import render
-
 from .forms import SignupForm
 from .forms import texts
 
 
-# Create your views here.
 
 def signupform(request):
     # if form is submitted

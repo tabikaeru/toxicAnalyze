@@ -11,22 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="controll.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/templates/controll.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/templates/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -34,41 +23,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/templates/result.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -82,13 +38,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DjangoExmaple/DjangoExmaple/urls.py">
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readingToxic.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/Toxic/readingToxic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-292">
+              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,6 +86,8 @@
       <find>BASE_PA</find>
       <find>MEDIA_ROOT</find>
       <find>hoge</find>
+      <find>textsdf</find>
+      <find>label</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -128,47 +95,74 @@
       <list>
         <option value="$PROJECT_DIR$/DjangoExmaple/newsletter/templates/controll.py" />
         <option value="$PROJECT_DIR$/DjangoExmaple/DjangoExmaple/settings.py" />
-        <option value="$PROJECT_DIR$/DjangoExmaple/newsletter/Toxic/readingToxic.py" />
         <option value="$PROJECT_DIR$/DjangoExmaple/newsletter/templates/views.py" />
-        <option value="$PROJECT_DIR$/DjangoExmaple/DjangoExmaple/urls.py" />
-        <option value="$PROJECT_DIR$/DjangoExmaple/newsletter/urls.py" />
         <option value="$PROJECT_DIR$/DjangoExmaple/newsletter/forms.py" />
         <option value="$PROJECT_DIR$/DjangoExmaple/newsletter/templates/forms.py" />
         <option value="$PROJECT_DIR$/DjangoExmaple/newsletter/templates/signupform.html" />
         <option value="$PROJECT_DIR$/DjangoExmaple/newsletter/templates/resultSentence.html" />
         <option value="$PROJECT_DIR$/DjangoExmaple/newsletter/templates/result.html" />
+        <option value="$PROJECT_DIR$/DjangoExmaple/DjangoExmaple/wsgi.py" />
+        <option value="$PROJECT_DIR$/DjangoExmaple/DjangoExmaple/urls.py" />
         <option value="$PROJECT_DIR$/DjangoExmaple/newsletter/views.py" />
+        <option value="$PROJECT_DIR$/DjangoExmaple/newsletter/urls.py" />
+        <option value="$PROJECT_DIR$/DjangoExmaple/newsletter/Toxic/readingToxic.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="707" />
-    <option name="y" value="26" />
-    <option name="width" value="659" />
-    <option name="height" value="742" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="49" />
+    <option name="y" value="27" />
+    <option name="width" value="654" />
+    <option name="height" value="740" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="DjangoProject5org" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoProject5org" type="462c0819:PsiDirectoryNode" />
+              <item name="toxicAnalyze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toxicAnalyze" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DjangoProject5org" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoProject5org" type="462c0819:PsiDirectoryNode" />
+              <item name="toxicAnalyze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toxicAnalyze" type="462c0819:PsiDirectoryNode" />
               <item name="DjangoExmaple" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="toxicAnalyze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toxicAnalyze" type="462c0819:PsiDirectoryNode" />
+              <item name="DjangoExmaple" type="462c0819:PsiDirectoryNode" />
+              <item name="DjangoExmaple" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="toxicAnalyze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toxicAnalyze" type="462c0819:PsiDirectoryNode" />
+              <item name="DjangoExmaple" type="462c0819:PsiDirectoryNode" />
+              <item name="newsletter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="toxicAnalyze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toxicAnalyze" type="462c0819:PsiDirectoryNode" />
+              <item name="DjangoExmaple" type="462c0819:PsiDirectoryNode" />
+              <item name="newsletter" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="toxicAnalyze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toxicAnalyze" type="462c0819:PsiDirectoryNode" />
+              <item name="DjangoExmaple" type="462c0819:PsiDirectoryNode" />
+              <item name="newsletter" type="462c0819:PsiDirectoryNode" />
+              <item name="Toxic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,16 +203,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="25" width="1320" height="744" extended-state="6" />
+    <frame x="47" y="25" width="1314" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1676783" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16615854" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32917318" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32761312" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962063" />
@@ -233,38 +228,56 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DjangoExmaple/newsletter/Toxic/readingToxic.py</url>
+          <line>24</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/Toxic/readingToxic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoExmaple/DjangoExmaple/urls.py">
+    <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoExmaple/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/Toxic/readingToxic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/templates/resultSentence.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" lean-forward="true" selection-start-line="40" selection-end-line="42" />
         </state>
       </provider>
     </entry>
@@ -279,9 +292,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -296,9 +306,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -451,24 +458,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/result.html" />
     <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/hoge/result.html" />
-    <entry file="file://$PROJECT_DIR$/DjangoExmaple/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/forms/fields.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="208" column="8" selection-start-line="208" selection-start-column="8" selection-end-line="208" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoExmaple/DjangoExmaple/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
         </state>
       </provider>
     </entry>
@@ -484,41 +477,12 @@
         <state relative-caret-position="-308" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/Toxic/learningToxic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/Toxic/readingToxic.py.bk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/Toxic/readingToxic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/Toxic/learningToxic.py" />
+    <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/Toxic/readingToxic.py.bk" />
     <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/templates/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoExmaple/DjangoExmaple/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -536,13 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -550,48 +507,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/templates/controll.py">
+    <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="292">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/templates/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="292">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/templates/controll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DjangoExmaple/DjangoExmaple/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="82">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/urls.py">
+    <entry file="file://$PROJECT_DIR$/DjangoExmaple/DjangoExmaple/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoExmaple/newsletter/Toxic/readingToxic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-292">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>

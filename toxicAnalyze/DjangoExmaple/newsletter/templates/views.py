@@ -25,34 +25,16 @@ def signupform(request):
             if form.is_valid():
                 # if valid rendering new view with values
                 # the form values contains in cleaned_data dictionary
-                # analyse_text.cleaned_data['sentence'] = controller(analyse_text.cleaned_data['sentence'])
-                # hoge = []
-                """
-                for line in range(6):
-                    hoge.append(line)
-                """
-
-                # result_status.cleaned_data['identity_hate'], result_status.cleaned_data['obscene'], result_status.cleaned_data['threat'], result_status.cleaned_data['insult'], result_status.cleaned_data['severe_toxic'], result_status.cleaned_data['toxic'] = controller(analyse_text.cleaned_data['sentence'])
-                hoge = controllerUserAnalyze(form.cleaned_data['twitterID'])
-
-                """
-                result_status.cleaned_data['identity_hate'], result_status.cleaned_data['obscene'], \
-                    result_status.cleaned_data['threat'], result_status.cleaned_data['insult'], result_status.cleaned_data['severe_toxic'], result_status.cleaned_data['toxic'] = hoge[0], hoge[1], hoge[2], hoge[3], hoge[4], hoge[5]
-                """
-                # hoge = controllerAnalyzeText(analyse_text.cleaned_data['sentence'])
-                """
-                return render(request, 'resultSentence.html', {
-                    'identity_hate': result_status.cleaned_data['identity_hate'], 'obscene': result_status.cleaned_data['obscene'], 'threat': result_status.cleaned_data['threat'], 'insult': result_status.cleaned_data['insult'], 'severe_toxic': result_status.cleaned_data['severe_toxic'], 'toxic': result_status.cleaned_data['toxic']
-                """
+                results = controllerUserAnalyze(form.cleaned_data['twitterID'])
 
                 return render(request, 'resultSentence.html', {
                     'twitterID': form.cleaned_data['twitterID'],
-                    'identity_hate': hoge[0],
-                    'obscene': hoge[1],
-                    'threat': hoge[2],
-                    'insult': hoge[3],
-                    'severe_toxic': hoge[4],
-                    'toxic': hoge[5]
+                    'identity_hate': results[0],
+                    'obscene': results[1],
+                    'threat': results[2],
+                    'insult': results[3],
+                    'severe_toxic': results[4],
+                    'toxic': results[5]
                 })
 
         if "analyse_text" in request.POST:
@@ -64,32 +46,18 @@ def signupform(request):
                 # if valid rendering new view with values
                 # the form values contains in cleaned_data dictionary
                 #analyse_text.cleaned_data['sentence'] = controller(analyse_text.cleaned_data['sentence'])
-                #hoge = []
-                """
-                for line in range(6):
-                    hoge.append(line)
-                """
+                #results = []
 
-                #result_status.cleaned_data['identity_hate'], result_status.cleaned_data['obscene'], result_status.cleaned_data['threat'], result_status.cleaned_data['insult'], result_status.cleaned_data['severe_toxic'], result_status.cleaned_data['toxic'] = controller(analyse_text.cleaned_data['sentence'])
-                hoge = controllerAnalyzeText(analyse_text.cleaned_data['sentence'])
+                results = controllerAnalyzeText(analyse_text.cleaned_data['sentence'])
 
-                """
-                result_status.cleaned_data['identity_hate'], result_status.cleaned_data['obscene'], \
-                    result_status.cleaned_data['threat'], result_status.cleaned_data['insult'], result_status.cleaned_data['severe_toxic'], result_status.cleaned_data['toxic'] = hoge[0], hoge[1], hoge[2], hoge[3], hoge[4], hoge[5]
-                """
-                #hoge = controllerAnalyzeText(analyse_text.cleaned_data['sentence'])
-                """
-                return render(request, 'resultSentence.html', {
-                    'identity_hate': result_status.cleaned_data['identity_hate'], 'obscene': result_status.cleaned_data['obscene'], 'threat': result_status.cleaned_data['threat'], 'insult': result_status.cleaned_data['insult'], 'severe_toxic': result_status.cleaned_data['severe_toxic'], 'toxic': result_status.cleaned_data['toxic']
-                """
 
                 return render(request, 'resultSentence.html', {
-                    'identity_hate': hoge[0],
-                    'obscene': hoge[1],
-                    'threat': hoge[2],
-                    'insult': hoge[3],
-                    'severe_toxic': hoge[4],
-                    'toxic': hoge[5]
+                    'identity_hate': results[0],
+                    'obscene': results[1],
+                    'threat': results[2],
+                    'insult': results[3],
+                    'severe_toxic': results[4],
+                    'toxic': results[5]
                 })
 
     else:
